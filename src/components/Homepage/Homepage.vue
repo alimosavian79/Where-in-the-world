@@ -137,8 +137,8 @@ export default {
       .then(res => {
         this.error = null;
         this.countries = res;
-        // this.loading = false;
-        // this.setFilters();
+        this.loading = false;
+        this.setFilters();
       })
       .catch(error => {
         this.error = error.data.message;
