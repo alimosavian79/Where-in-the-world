@@ -16,3 +16,13 @@ body {
     margin: 0;
     background: var(--VeryLightGray);
 }
+
+.vs--single .vs__selected {
+    width: 85%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    height: 23px;
+    margin: auto 0;
+}
