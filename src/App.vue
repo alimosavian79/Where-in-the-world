@@ -9,6 +9,9 @@
 
 <script>
 import Header from "./components/Header.vue";
+import "vue-select/dist/vue-select.css";
+import "vue-skeletor/dist/vue-skeletor.css";
+import "./styles/app.css";
 
 export default {
   name: "App",
