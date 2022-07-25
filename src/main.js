@@ -6,7 +6,7 @@ import { Skeletor } from 'vue-skeletor';
 import Placeholder from './components/common/Placeholder';
 import VLazyImage from "v-lazy-image";
 import 'vue-select/dist/vue-select.css';
-import 'vue-skeletor/dist/vue-skeletor.css';
+
 import './styles/app.css'
 
 
