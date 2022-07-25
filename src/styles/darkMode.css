@@ -1,0 +1,76 @@
+main {
+    transition: .4s all;
+}
+
+main.dark {
+    background: var(--VeryDarkBlueBg);
+}
+
+main.dark .input-box,
+main.dark .input-box input {
+    background: var(--DarkBlue);
+    color: var(--White);
+}
+
+main.dark .input-box {
+    box-shadow: 0 0 10px 0 var(--boxShadowDark);
+}
+
+main.dark .input-box i {
+    color: var(--White);
+}
+
+main.dark .input-box input::placeholder {
+    color: var(--White);
+}
+
+main.dark .country {
+    background: var(--DarkBlue);
+    box-shadow: 0 0 10px 0 var(--boxShadowDark);
+}
+
+main.dark .country .detail {
+    color: var(--White);
+}
+
+main.dark .placeholder {
+    color: var(--White);
+}
+
+main.dark .homepage .v-select .vs__dropdown-toggle {
+    box-shadow: 0 0 10px 0 var(--boxShadowDark);
+    background: var(--DarkBlue);
+}
+
+main.dark .homepage .v-select .vs__search::placeholder,
+main.dark .homepage .v-select .vs__selected {
+    color: var(--White);
+}
+
+main.dark .homepage .v-select .vs__open-indicator,
+main.dark .homepage .v-select .vs__clear {
+    fill: var(--White);
+}
+
+main.dark .country-page .back-link,
+main.dark .placeholder .back-link {
+    box-shadow: 0 0 10px 0 var(--boxShadowDark);
+    background: var(--DarkBlue);
+    color: var(--White);
+}
+
+main.dark .country-page .back-link i,
+main.dark .placeholder .back-link i {
+    color: var(--White);
+}
+
+main.dark .country-page .container .country-detail h1,
+main.dark .country-page .container .border-countries,
+main.dark .country-page .container .info-wrapper .info {
+    color: var(--White);
+}
+
+main.dark .country-page .container .border-countries a {
+    box-shadow: 0 0 10px 0 var(--boxShadowDark);
+    background: var(--DarkBlue);
+}
